@@ -2,15 +2,14 @@
 
 .tile {
   display: flex;
-  background-color: #1e1e1e; /* Dark background */
+  background-color: #242424; /* Dark gray background for modern appearance */
   color: white;
-  border-radius: 0px; /* Sharp corners */
+  border-radius: 6px; /* Slightly rounded corners for a clean look */
   overflow: hidden;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Modern shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
   margin: 20px 0;
-  padding: 0; /* Remove padding for a cleaner look */
   width: 100%; /* Full-width */
-  height: 200px; /* Adjust height as needed */
+  height: 250px; /* Adjust height as needed */
 }
 
 .image-container {
@@ -27,15 +26,15 @@
 
 .event-name {
   position: absolute;
-  bottom: -30px; /* Just below the image */
-  left: 15px;
+  bottom: 10px; /* Above the bottom edge of the image */
+  left: 10px;
   font-size: 20px;
   font-weight: bold;
   color: white;
-  background-color: rgba(30, 30, 30, 0.8); /* Semi-transparent dark background */
+  background-color: rgba(36, 36, 36, 0.8); /* Semi-transparent dark background */
   padding: 5px 10px;
-  border-radius: 4px; /* Slightly rounded for readability */
-  text-shadow: none; /* Remove text shadow for a cleaner look */
+  border-radius: 4px; /* Slight rounding for readability */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Soft shadow for contrast */
 }
 
 .details {
@@ -57,34 +56,36 @@
 
 .day {
   font-size: 36px;
-  color: #ff5733;
+  color: #ff7043; /* Green for a fresh look */
 }
 
 .month {
-  color: #ffa500;
+  color: #dddddd; /* Light blue for contrast */
 }
 
 p {
   font-size: 16px;
   line-height: 1.6;
   margin: 10px 0;
-  color: #bdbdbd; /* Slightly lighter gray for text */
+  color: #d3d3d3; /* Lighter gray for description text */
 }
 
 .ticket-button {
   padding: 10px 20px;
-  background-color: #ff5733;
+  background-color: #ff7043; /* A vibrant orange color */
   color: white;
   font-size: 16px;
+  font-weight: bold;
   border: none;
-  border-radius: 4px; /* Slight rounding for the button */
+  border-radius: 4px;
   cursor: pointer;
+  align-self: flex-start;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .ticket-button:hover {
-  background-color: #ff4500;
-  transform: translateY(-2px); /* Subtle lift on hover */
+  background-color: #ff5722; /* A darker shade of orange on hover */
+  transform: translateY(-3px); /* Subtle lift effect */
 }
 
 .ticket-button:active {
