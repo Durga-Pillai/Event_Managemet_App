@@ -1,9 +1,10 @@
 class Event {
-    constructor(name, venue, image, date, time, description, presenters, genre, capacity) {
+    constructor(name, venue, image, startDate, endDate, time, description, presenters, genre, capacity) {
         this.name = name;
         this.venue = venue;
         this.image = image;
-        this.date = date;
+        this.startDate = startDate;
+        this.endDate = endDate;
         this.time = time;
         this.description = description;
         this.presenters = presenters;
@@ -12,12 +13,12 @@ class Event {
     }
 
     getMonth() {
-        let arr = this.date.split(" ");
+        let arr = this.startDate.split(" ");
         return arr[0];
     }
 
     getDay() {
-        let arr = this.date.split(" ");
+        let arr = this.startDate.split(" ");
         return arr[1];
     }
 
@@ -33,8 +34,12 @@ class Event {
         return this.description;
     }
 
-    getDate() {
-        return this.date;
+    getStartDate() {
+        return this.startDate;
+    }
+
+    getEndDate() {
+        return this.endDate;
     }
 
     getVenue() {

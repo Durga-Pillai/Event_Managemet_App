@@ -1,0 +1,14 @@
+.app-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0; /* Adjust gap as needed */
+    padding: 0;
+    margin: 0;
+  }
+  
+
+body {
+    background-color: #242424; /* Dark theme background for the entire app */
+    margin: 0; /* Removes default margin */
+    font-family: Arial, sans-serif; /* Optional: set a default font */
+}
