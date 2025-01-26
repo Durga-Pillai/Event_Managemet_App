@@ -1,0 +1,19 @@
+.home-app-container {
+    display: flex;
+    flex-direction: column; /* Ensures sections stack vertically */
+    gap: 0; /* Adjust gap between sections if needed */
+    padding: 0;
+    margin: 0;
+  }
+
+.home-root {
+    padding: 16px;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.home-body {
+    background-color: #242424; 
+    margin: 0px; 
+    font-family: Arial, sans-serif; 
+}

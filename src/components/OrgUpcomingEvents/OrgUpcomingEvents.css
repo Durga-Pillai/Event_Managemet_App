@@ -1,0 +1,38 @@
+.upcoming-events-container {
+    padding: 20px;
+    background-color: #242424;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upcoming-events-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #dddddd;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .upcoming-events-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: left; 
+  }
+  
+  .event-tile {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 0px;
+    width: 200px; /* Adjust the width of each tile */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .event-tile:hover {
+    transform: scale(1.05); /* Adds a hover effect for better interactivity */
+  }
+  
