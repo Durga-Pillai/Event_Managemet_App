@@ -6,7 +6,12 @@
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  background: #333232;
+  background: #242424;
+}
+
+.tile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7);
 }
 
 .image-container {

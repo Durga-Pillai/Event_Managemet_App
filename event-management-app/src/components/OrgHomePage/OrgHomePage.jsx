@@ -7,6 +7,7 @@ import FAQ from "../FAQ/FAQ";
 import OrgUpcomingEvents from "../OrgUpcomingEvents/OrgUpcomingEvents";
 import OrgSidebar from "../OrgSideBar/OrgSideBar";
 import EventForm from "../EventForm/EventForm";
+import OrgDashboard from "../OrgDashboard/OrgDashboard";
 
 function OrgHomePage() {
   const upcomingEvents = [
@@ -105,7 +106,7 @@ function OrgHomePage() {
       <OrgSidebar scrollToSection={scrollToSection} />
       <div ref={dashboardRef} className="orghome-app-container">
         <h2>Dashboard Section</h2>
-        <Dashboard badge={5} registered={2} currentlyRegistered={1} />
+        <OrgDashboard badge={5} conducted={2} currentlyConducting={1} />
       </div>
       <div ref={upcomingEventsRef} className="orghome-app-container">
         <OrgUpcomingEvents events={upcomingEvents} />

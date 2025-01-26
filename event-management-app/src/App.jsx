@@ -4,6 +4,7 @@ import HomePage from "./components/HomePage/HomePage";
 import RegistrationLogin from "./components/RegistrationLogin/RegistrationLogin";
 
 function App() {
+  // return <Calender />;
   return <RegistrationLogin />;
   // return <HomePage />;
 }

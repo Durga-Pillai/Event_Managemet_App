@@ -1,0 +1,51 @@
+/* Dashboard.css */
+body {
+    background-color: #242424; /* Dark background */
+    color: #e0e0e0; /* Light text for contrast */
+    font-family: 'Arial', sans-serif; /* Clean and modern font */
+  }
+  
+  .orgdashboard-container {
+    display: flex;
+    justify-content: space-between; /* Evenly space out the tiles */
+    gap: 20px; /* Add spacing between the tiles */
+    padding: 20px; /* Add padding around the container */
+    background-color: #1e1e1e; /* Slightly lighter dark background */
+    border-radius: 12px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  }
+  
+  .orgdashboard-tile {
+    flex: 1; /* Ensures tiles take up equal width */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add padding inside each tile */
+    border: 2px solid #3a3a3a; /* Subtle border for separation */
+    border-radius: 12px; /* Rounded corners for tiles */
+    background-color: #2a2a2a; /* Dark tile background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for tiles */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
+  }
+  
+  .orgdashboard-tile:hover {
+    transform: translateY(-5px); /* Slightly lift on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7); /* Enhanced shadow on hover */
+  }
+  
+  .orgdashboard-tile h1 {
+    font-size: 1.5rem;
+    color: #e0e0e0; /* Light text for headings */
+    margin-bottom: 10px; /* Space below heading */
+  }
+  
+  .orgdashboard-tile h3 {
+    font-size: 1.2rem;
+    color: #b0b0b0; /* Slightly lighter text for subheadings */
+  }
+  
+  @media (max-width: 768px) {
+    .orgdashboard-container {
+      flex-direction: column; /* Stack tiles vertically on smaller screens */
+      gap: 15px; /* Reduce gap for smaller screens */
+    }
+  }
+  
