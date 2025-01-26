@@ -1,0 +1,12 @@
+/* components/Sidebar/Sidebar.css */
+.orgsidebar {
+    width: 250px;
+    padding: 10px;
+  }
+  
+  .orgsidebar-item {
+    margin-bottom: 10px;
+  }
+
+
+  

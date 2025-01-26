@@ -1,0 +1,31 @@
+/* FAQ.css */
+.faq-section {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #2a2a2a; /* Slightly lighter dark for contrast */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    color: #e0e0e0; /* Light text for readability */
+    margin: 40px;
+  }
+  
+  .faq-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #ffffff; /* Bright heading for contrast */
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-item h3 {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    margin-bottom: 8px;
+  }
+  
+  .faq-item p {
+    font-size: 1rem;
+    color: #b0b0b0;
+  }
+  

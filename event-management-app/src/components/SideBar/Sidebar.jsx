@@ -90,7 +90,7 @@ const Sidebar = ({ scrollToSection }) => {
       <Divider />
       <List>
         <ListItem disablePadding>
-          <ListItemButton>
+          <ListItemButton onClick={() => scrollToSection("contact")}>
             <ListItemIcon>
               <ContactSupportIcon />
             </ListItemIcon>
@@ -98,7 +98,7 @@ const Sidebar = ({ scrollToSection }) => {
           </ListItemButton>
         </ListItem>
         <ListItem disablePadding>
-          <ListItemButton>
+          <ListItemButton onClick={() => scrollToSection("faq")}>
             <ListItemIcon>
               <LiveHelpIcon />
             </ListItemIcon>

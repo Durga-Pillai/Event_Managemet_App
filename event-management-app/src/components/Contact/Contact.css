@@ -1,0 +1,27 @@
+/* Contact.css */
+.contact-section {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #2a2a2a; /* Slightly lighter dark for contrast */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    color: #e0e0e0; /* Light text for readability */
+    margin: 40px;
+  }
+  
+  .contact-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #ffffff; /* Bright heading for contrast */
+  }
+  
+  .contact-section ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+  }
+  
+  .contact-section li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #b0b0b0; /* Slightly muted text for list items */
+  }
+  

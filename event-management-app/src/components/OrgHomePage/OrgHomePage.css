@@ -1,0 +1,50 @@
+.orghome-app-container {
+    display: flex;
+    flex-direction: column; /* Ensures sections stack vertically */
+    gap: 0; /* Adjust gap between sections if needed */
+    padding: 0;
+    margin: 0;
+  }
+
+.orghome-root {
+    padding: 16px;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.orghome-body {
+    background-color: #242424; 
+    margin: 0px; 
+    font-family: Arial, sans-serif; 
+}
+
+.floating-action-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #333; /* Dark gray background */
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .floating-action-button:hover {
+    background-color: #444; /* Slightly lighter dark gray */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .floating-action-button:active {
+    background-color: #555; /* Even lighter dark gray */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  
