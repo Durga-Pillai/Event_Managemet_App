@@ -19,7 +19,7 @@ function OrgHomePage() {
       "Apr 16",
       "10: 30",
       "hello i am The issue here is that your local Git repository does not have a remote repository set up, which is why the git push command is failing. Specifically, Git cannot find the remote called origin, which is used to push the code to a remote repository. The issue here is that your local Git repository does not have a remote repository set up, which is why the git push command is failing. Specifically, Git cannot find the remote called origin, which is used to push the code to a remote repository.",
-      "Alvin",
+      "Fejo",
       "Tech",
       200
     ),
@@ -36,28 +36,28 @@ function OrgHomePage() {
       1000
     ),
     new Event(
-      "Ragam",
-      "OAT",
-      "https://scontent-maa2-1.xx.fbcdn.net/v/t1.6435-9/82815860_3018066191538473_2741255343299362816_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=In_w_q-haHIQ7kNvgHxQrDA&_nc_zt=23&_nc_ht=scontent-maa2-1.xx&_nc_gid=ATd1Wx47n7NQpPQBBLdr8e6&oh=00_AYCqrTR4ZJ__tO7FrQ0KdtVao7nAI7XemOGEGSROvOUb3g&oe=67BC53C9",
-      "Feb 23",
-      "Feb 26",
-      "7: 00",
+      "Inspire",
+      "New Delhi",
+      "https://www.eventbookings.com/wp-content/uploads/2024/01/Different-Types-of-Events-in-2024-Which-is-Right-for-You.jpg",
+      "Mar 24",
+      "Mar 27",
+      "2: 00",
       "hello i am The issue here is that your local Git repository does not have a remote repository set up, which is why the git push command is failing. Specifically, Git cannot find the remote called origin, which is used to push the code to a remote repository. The issue here is that your local Git repository does not have a remote repository set up, which is why the git push command is failing. Specifically, Git cannot find the remote called origin, which is used to push the code to a remote repository.",
-      "Salim Sulaiman",
+      "James",
       "Cultural",
-      1000
+      400
     ),
     new Event(
-      "Ragam",
-      "OAT",
-      "https://scontent-maa2-1.xx.fbcdn.net/v/t1.6435-9/82815860_3018066191538473_2741255343299362816_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=In_w_q-haHIQ7kNvgHxQrDA&_nc_zt=23&_nc_ht=scontent-maa2-1.xx&_nc_gid=ATd1Wx47n7NQpPQBBLdr8e6&oh=00_AYCqrTR4ZJ__tO7FrQ0KdtVao7nAI7XemOGEGSROvOUb3g&oe=67BC53C9",
-      "Feb 23",
-      "Feb 26",
-      "7: 00",
+      "Summit",
+      "Chennai",
+      "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg?cs=srgb&dl=pexels-wolfgang-1002140-2747449.jpg&fm=jpg",
+      "Sep 2",
+      "Sep 6",
+      "12: 00",
       "hello i am The issue here is that your local Git repository does not have a remote repository set up, which is why the git push command is failing. Specifically, Git cannot find the remote called origin, which is used to push the code to a remote repository. The issue here is that your local Git repository does not have a remote repository set up, which is why the git push command is failing. Specifically, Git cannot find the remote called origin, which is used to push the code to a remote repository.",
-      "Salim Sulaiman",
-      "Cultural",
-      1000
+      "Joseph",
+      "Technical",
+      100
     ),
   ];
 
